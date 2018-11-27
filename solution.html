@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>General Assembly Account Creation</title>
+</head>
+<body>
+  <img src="general_assembly_logo.png" alt="General Assembly Logo">
+
+  <h1>General Assembly Account Creation</h1>
+
+
+  <p>
+  Welcome to the General Assembly. General Assembly is a global
+  institution training people all over the world in today's top
+  technologies.
+  </p>
+  <p>
+  Please fill out the information below to create your General Assembly
+  account. Let us know what city you're in and what course
+  you're taking. This list is for all students. Please tell us what
+  city you're in and whether you're taking the Immersive User Experience (UX)
+  course or the Immersive Web Development course. 
+  </p>
+
+  <form action="success.html" method="POST">
+    <label for="city">City:</label>
+    <select id="city" name="city">
+      <option value="Hong Kong">Hong Kong</option>
+      <option value="London">London</option>
+      <option value="Los Angeles">Los Angeles</option>
+      <option value="New York">New York</option>
+      <option value="Portland">Portland</option>
+      <option value="San Francisco">San Francisco</option>
+      <option value="Seattle" selected="selected">Seattle</option>
+      <option value="Singapore">Singapore</option>
+    </select>
+    <br><br>
+
+    Course:
+    <input type="radio" id="ux" name="course" value="ux" checked><label for="ux">UX</label>
+    <input type="radio" id="webdev" name="course" value="webdev"><label for="webdev">Web Dev</label>
+    <br><br>
+    
+    <label for="name">Name:</label>
+    <input id="name" type="text" name="name">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" name="email">
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input id="password" type="password" name="password">
+    <br><br>
+
+    <input id="newsletter" type="checkbox" name="newsletter" checked>
+    <label for="newsletter">Yes, subscribe me to the General Assembly student newsletter</label>
+    <br><br>
+
+    <input type="submit" value="Subscribe">
+
+  </form>
+    
+</body>
+</html>
